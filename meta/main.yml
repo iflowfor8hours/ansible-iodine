@@ -7,8 +7,8 @@ galaxy_info:
   platforms:
   - name: Ubuntu
     versions:
-    - Trusty
-    - Vivid
+    - trusty
+    - vivid
   categories:
   - system
   - networking

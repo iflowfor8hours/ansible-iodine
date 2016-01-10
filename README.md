@@ -21,10 +21,10 @@ This server allows you to circumvent dns-based internet gateways like at some ai
 
 ## Example Playbook
 
-- hosts: all
-  sudo: true
-  roles:
-    - role: ansible-iodine
+    - hosts: all
+      sudo: true
+      roles:
+        - role: ansible-iodine
 
 ## Local Testing
 
