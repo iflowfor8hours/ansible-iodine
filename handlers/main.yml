@@ -1,0 +1,3 @@
+---
+- name: restart iodined
+  service: name=iodined state=restarted enabled=yes

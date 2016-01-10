@@ -1,0 +1,4 @@
+.vagrant/
+dependencies/
+*.swp
+.venv/

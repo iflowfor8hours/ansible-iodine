@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Matt Urbanski
+  description: A role to install and configure an iodine server
+  license: MIT
+  min_ansible_version: 1.9.4
+  platforms:
+  - name: Ubuntu
+    versions:
+    - Trusty
+    - Vivid
+  categories:
+  - system
+  - networking

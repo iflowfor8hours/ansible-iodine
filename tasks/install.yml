@@ -1,0 +1,9 @@
+---
+- name: add repo
+  apt_repository: 
+    repo: 'ppa:lamont/ppa'
+
+- name: install iodine package
+  apt:
+    pkg: iodine
+    state: latest

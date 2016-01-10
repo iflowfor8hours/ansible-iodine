@@ -1,0 +1,7 @@
+---
+
+- name: configure iodined dns server
+  template:
+    src: iodine.j2
+    dest: /etc/default/iodine
+  notify: restart iodined

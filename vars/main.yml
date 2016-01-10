@@ -1,0 +1,4 @@
+---
+iodine_password: CHANGE_ME
+iodine_private_ip: 10.0.10.1
+iodine_server_dns: "ns.{{ ansible_fqdn }}"
